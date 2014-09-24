@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo';
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Wallpoet';
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*Menu*/
+
+#menu {
+	width: 1000px;
+	height: 76px;
+	margin: 0px auto;
+	padding: 20px 20px 0px 20px;
+	
+	
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu li a {
+	display: block;
+	padding: 3px 20px;
+}
+
+#menu a {
+	background: black;
+	display: block;
+	float: left;
+	height: 56px;
+	margin: 0px;
+	padding: 0px 20px 0px 20px;
+	line-height: 56px;
+	letter-spacing: -1px;
+	font-size: 16px;
+	font-weight: normal;
+	border: none;
+	color: #FFF;
+
+}
+.Kategorie
+{
+	background-color: #AFAFAF;
+}
+.Thread
+{
+	background-color: #949494;
+}
+.Post0
+{
+	background-color: #5C5C5C;
+}
+.Post1
+{
+	background-color: #2C2C2C;
+}
+
+

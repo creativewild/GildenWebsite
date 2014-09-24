@@ -1,0 +1,7 @@
+<videos imageLarge="images/avatar.jpg" btnColor="0x000000" overColor="0x990000" barColor="0xBBBBBB" progressBarColor="0x990000" arrowColor="0x999999" arrowOver="0x990000" txtColor="0x000000" bufferTime="5" autoAdvance="true">
+<vid>
+	<flv>./Video/ImperialMarch.flv</flv>
+	<img>./img/Site/WelcomeLogo.png</img>
+	<desc></desc>
+</vid>
+</videos>

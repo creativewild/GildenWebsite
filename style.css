@@ -1,0 +1,1665 @@
+@font-face {font-family:"Star Jedi Logo MonoLine";src:url("Strjmono.eot?") format("eot"),url("Strjmono.woff") format("woff"),url("Strjmono.ttf") format("truetype"),url("Strjmono.svg#StarJediLogoMonoLine") format("svg");font-weight:normal;font-style:normal;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000000 url(img/site/NeuerHintergrundLogoKacheln1.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment:fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Star Jedi Logo MonoLine';
+	font-weight: normal;
+	color: #2E9F13;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Wallpoet';
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+	color: #FFFFFF;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #AF0706;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.border {
+	border: 6px solid #EEE7DF;
+}
+
+img.alignleft {
+	float: left;
+	right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 240px;
+}
+
+#header {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#gif{
+	background: #000000 url(img/site/blink_banner3.gif) no-repeat center top;
+	width: 980px;
+	height: 200px;
+	margin: 20px auto;
+	background-color: transparent;
+}
+
+#logo {
+	background: #000000 url(img/site/banner.gif) no-repeat center top;
+	width: 980px;
+	height: 200px;
+	margin: 20px auto;
+	background-color: transparent;
+
+}
+
+/*Menu*/
+
+#menu {
+	width: 1085px;
+	height: 76px;
+	margin: 0px auto;
+	padding: 20px 20px 0px 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+
+}
+
+#menu li a {
+	display: block;
+	padding: 3px 20px;
+	text-decoration: none;
+}
+
+#menu li:hover ul{
+	display: block;
+	position: absolute;
+	top:290px;
+}
+
+#menu li ul{
+	display: none;
+	position: absolute;
+	margin-top:50px;
+}
+
+#menu li:hover li{
+	width: 104px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 56px;
+	margin: 0px;
+	padding: 0px 20px 0px 20px;
+	line-height: 56px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Graduate', serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #B5B5B5;
+	border: none;
+
+}
+#menu a:hover {
+	background: url(img/site/img03.jpg) repeat-x left top;
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+#menu .current_page_item a {
+	background: url(img/site/img03.jpg) repeat-x left top;
+	color: #FFFFFF;
+}
+
+
+#content_bewerbung_user {
+	width: 750px;
+	height:1000px;
+	margin-top: 70px;
+	margin-left: 400px;
+	padding: 30px 40px 0px 40px;
+}
+#content_movies {
+	width: 750px;
+	height:auto;
+	margin-top: 70px;
+	margin-left: 400px;
+	padding: 30px 40px 0px 40px;
+}
+#content_regeln {
+	width: 1050px;
+	height-min: 1000px;
+	height-max: 2500px;
+	margin-top: 70px;
+	margin-left: -20px;
+	padding: 30px 40px 0px 40px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#content_news {
+	width: 1045px;
+	height:auto;
+	margin-top: 70px;
+	margin-left: -15px;
+	padding: 30px 40px 0px 40px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Index.php*/
+#page {
+	width: 1150px;
+	margin: -100px auto;
+	padding: 0 0 0 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: auto;
+	url(img/site/page-gradient-bg.png) repeat-x left bottom;
+}
+
+#page-bgtop {
+	background-color: none;
+}
+
+#page-bgbtm {
+	background-color: none;
+	margin: 0px;
+	padding: 40px 30px 0px 30px;
+}
+#img_willkommen{
+    display: block;
+    margin-left: 125px;
+    margin-right: auto;
+}
+.img_willkommen{
+    display: block;
+    margin-left: 125px;
+    margin-right: auto;
+}
+#message_willkommen{
+
+}
+#willkommen_start{
+	text-align:center;
+	color:#F90;
+}
+#willkommen_mitte{
+	text-align:justify;
+}
+#willkommen_ende{
+	text-align:center;
+	color:#F90;
+}
+
+/* Content */
+
+#content {
+	width: 750px;
+	height:1565px;
+	margin-top: 70px;
+	margin-left: 277px;
+	padding: 30px 40px 0px 40px;
+	background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.post {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	padding-top: 10px;
+	letter-spacing: -2px;
+}
+
+.post .title a {
+	color: #1A1A1A;
+	border: none;
+}
+
+.post .meta {
+	padding-bottom: 10px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 270px;
+	height: auto;
+	margin-top: -146.5%;
+	margin-left: -17px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	border-right: 1px solid #B6BFD0;
+}
+.sidebar_anzeige{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 240px;
+}
+.sidebar_server{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 240px;
+	height: 330px;
+}
+.sidebar_ts{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 240px;
+	height: 650px;
+	margin-top: -45px;
+}
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li h4{
+	margin: 0;
+	padding: 0;
+	margin-left: 75px;
+}
+#gebgif{
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+}
+
+#sidebar h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding: 12px 0 0 0px;
+	border-top: none;
+	border-bottom: none;
+	letter-spacing: 0px;
+	font-size: 20px;
+	text-shadow: 0.1em 0.1em 0.2em white;
+	color: #AA0000;
+}
+#sidebar h4 {
+	margin-top: -10px;
+	margin-bottom: 5px;
+	padding: 0 0 0 15px;
+	border-top: none;
+	border-bottom: none;
+	letter-spacing: 0px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#sidebar p {
+	margin: 0 0 0 0;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+#Login_anzeige{
+	height: 300px;
+}
+#Server_anzeige{
+	height: 300px;
+}
+#Serverstatus{
+	margin-top: -60px;
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#Anzeige_Raids{
+	margin-top: 15px;
+	display: block;
+	height: 300px;
+}
+#Anzeige_Status{
+	margin-top: 15px;
+	display: block;
+	height: 300px;
+}
+#Raids{
+	font-size:15px;
+}
+#Login_Eingabe{
+	margin-left: 25px;
+	margin-top: -235px;
+}
+#Meldungen{
+	margin-left: 15px;
+}
+#raidanzeige{
+	margin-left: 25px;
+	margin-top: -255px;
+	font-family: 'Graduate', serif;
+	font-weight: normal;
+}
+#useranzeige{
+	margin-left: 15px;
+}
+#ts3viewer
+{
+	width: 210px;
+    margin-top: -590px;
+	margin-left: 17px;
+	color:white;
+}
+#login{
+	width: 125px;
+	margin-left:-20px
+}
+#passwd{
+	width: 125px;
+	margin-left:-20px
+}
+#LR_Button{
+	margin-left: 20px;
+	margin-top: -250px;
+	width: 200px;
+}
+#img_User{
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	max-width: 180px;
+	max-height: 180px;
+}
+#Logout_Button{
+	margin-top:-35px;
+	margin-left:80px;
+}
+#cookie{
+	margin-left: 0px;
+	font-size: 10px;
+}
+#TS3{
+	margin-top: 40px;
+
+}
+
+/* Footer */
+
+#footer {
+	width: 1150px;
+	height: 100px;
+	margin: 100px auto 40px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 18px;
+	line-height: normal;
+	text-align: center;
+	color: #888888;
+	font-weight: bolder;
+}
+
+#footer a {
+	color: #576475;
+}
+
+/*Login*/
+
+#n_text{
+	font-size:10px;
+}
+
+#n_eingabe{
+	margin-top: -25px;
+	margin-left: 80px;
+}
+
+#p_text{
+	font-size:10px;
+}
+
+#p_eingabe{
+	margin-top: -25px;
+	margin-left: 80px;
+}
+#L_Button{
+	margin-top: 10px;
+}
+
+#R_Button{
+	margin-top: -26px;
+	margin-left: 95px;
+}
+#Meldungen{
+	color:red;
+}
+
+/*Registrieren.php*/
+
+
+#reg{
+	margin:0px, 0px;
+}
+
+#Registrieren .title{
+	color: #FFFFFF;
+	border: none;
+	margin-left: 370px;
+	margin-top: 0px;
+}
+#contentreg #Registrieren .angaben{
+	font-size:16px;
+	margin-left: 10px;
+	margin-top: 5px;
+ }
+
+#E-Mail{
+	margin-left: 10px;
+}
+
+#e_eingabe{
+	margin-top:-20px;
+	margin-left: 110px;
+}
+
+#Passwort{
+	margin-left: 300px;
+	margin-top:-22px;
+}
+#pw_text{
+	font-size: 14px;
+	margin-left: 0px;
+}
+
+#pw_eingabe{
+	margin-top:-19px;
+	margin-left: 115px;
+}
+
+#Passwort_wiederholen{
+	margin-left: 550px;
+	margin-top:-22px;
+}
+
+#pww_eingabe{
+	margin-top:-20px;
+	margin-left: 170px;
+}
+
+#mc_text{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#mc_eingabe{
+	margin-left: 120px;
+	margin-top: -20px;
+
+}
+
+.freiwillig1{
+	font-size:16px;
+	margin-left: 10px;
+	margin-top: 40px;
+ }
+
+#b_text{
+	margin-left:10px;
+	margin-top: 10px;
+}
+
+#b_eingabe{
+	margin-left: 100px;
+	margin-top: -22px;
+}
+
+#vn_text{
+	margin-left:10px;
+	margin-top: 15px;
+}
+
+#vn_eingabe{
+	margin-left:100px;
+	margin-top: -20px;
+}
+
+#nn_text{
+	margin-left:280px;
+	margin-top: -20px;
+}
+
+#nn_eingabe{
+	margin-top:-20px;
+	margin-left: 390px;
+}
+
+#gt_text{
+	margin-left:620px;
+	margin-top: -20px;
+}
+
+#gt_eingabe{
+	margin-top:-22px;
+	margin-left: 720px;
+}
+
+#wo_text{
+	margin-left:10px;
+	margin-top: 15px;
+}
+
+#wo_eingabe{
+	margin-left:100px;
+	margin-top: -20px;
+}
+
+#tn_text{
+	margin-left:280px;
+	margin-top: -20px;
+}
+
+#tn_eingabe{
+	margin-top:-20px;
+	margin-left: 390px;
+}
+
+#em_text{
+	margin-left:620px;
+	margin-top: -15px;
+}
+
+#em_eingabe{
+	margin-top:-17px;
+	margin-left: 790px;
+}
+
+#ft_text{
+	margin-left:10px;
+	margin-top: 15px;
+}
+
+#ft_eingabe{
+	margin-left:10px;
+	margin-top: 15px;
+}
+
+#Reg_Button{
+	margin-top:10px;
+	margin-left: 10px;
+
+}
+
+#A_Button{
+	margin-top:-22px;
+	margin-left: 130px;
+}
+
+.buttons{
+	width: 100px;
+}
+
+#Meldungenreg{
+	color:red;
+	margin-left:-230px;
+	margin-top: 10px;
+}
+
+/*Bewerbung.php*/
+
+#Registrieren .title{
+	color: #FFFFFF;
+	border: none;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#Bewerbung .title{
+	color: #FFFFFF;
+	border: none;
+	margin-left: 0px;
+	margin-top: 70px;
+}
+#Pflicht{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size:18px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#MainChar{
+	margin-top: 20px;
+	margin-left:0px;
+}
+.alter{
+	margin-top: 5px;
+	margin-left:0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#Alter{
+	margin-top: 5px;
+	margin-left: 0px;
+}
+.rasse{
+	margin-top: 5px;
+	margin-left:0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.klasse{
+	margin-top: 15px;
+	margin-left: 0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#Klasse{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.ausrichtung{
+	margin-top: 15px;
+	margin-left:0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#Richtung{
+	margin-top: 0px;
+	margin-left:0px;
+}
+
+.Character{
+	margin-top: 10px;
+	margin-left: 0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.vorlieben{
+	margin-top: 5px;
+	margin-left: 0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#why_text{
+	margin-top: 10px;
+}
+
+.onlinezeiten{
+	margin-top: 30px;
+	margin-left: 0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#tage{
+	margin-top: 5px;
+	margin-left: 0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mo{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+#fr{
+	margin-top: -85px;
+	margin-left: 150px;
+}
+#di{
+	margin-top: 5px;
+	margin-left: 0px;
+}
+#sa{
+	margin-top: 5px;
+	margin-left: 150px;
+}
+#mi{
+	margin-top: 5px;
+	margin-left: 0px;
+}
+#so{
+	margin-top: 5px;
+	margin-left: 150px;
+}
+#do{
+	margin-top: 5px;
+	margin-left: 0px;
+}
+#jt{
+	margin-top: 5px;
+	margin-left: 150px;
+}
+#uhrzeit{
+	margin-top: -125px;
+	margin-bottom: 0px;
+	margin-left: 250px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#von{
+	margin-top: -15px;
+	margin-left: 250px;
+}
+#sonstiges{
+	margin-top: 110px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size:15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#sonstiges_Text{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#information{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#reg_info{
+	margin-top: 30px;
+	margin-bottom: -55px;
+	margin-left: 0px;
+}
+#e_text_bewerbung{
+	font-size: 14px;
+	margin-left: -10px;
+	margin-top: 30px;
+}
+#e_eingabe_bewerbung{
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+#pw_text_bewerbung{
+	font-size: 14px;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+#pw_eingabe_bewerbung{
+	margin-top: 10px;
+	margin-left: -80px;
+}
+#pww_text_bewerbung{
+	font-size: 14px;
+	margin-top:-50px;
+	margin-left: -170px;
+}
+#pww_eingabe_bewerbung{
+	margin-top: 10px;
+	margin-left: -170px;
+}
+#Be_Button_bewerbung{
+	margin-top:30px;
+	margin-left: 0px;
+}
+#A_Button_bewerbung{
+	margin-top:-22px;
+	margin-left: 110px;
+}
+
+/*------------------*/
+#Login_News_Bild
+{
+	margin-top:	5px;
+	margin-left: 0px;
+}
+#Login_News_News
+{
+	margin-left: 18%;
+	font-family: 'Graduate', serif;
+	width: 455px;
+}
+#AmpelGif{
+	margin-left: 130px;
+	margin-top: 60px;
+	width: 78px;
+}
+
+#Login_Bewerbung_neu
+{
+	margin-left: 210px;
+	margin-top: -95px;
+}
+#Login_Forum_neu
+{
+	margin-left: 210px;
+	margin-top: -5px;
+}
+#Login_Forum_neu_ohne_Bewerbung
+{
+	margin-left: 210px;
+	margin-top: -70px;
+}
+.post ul
+{
+	list-style: none;
+
+}
+#useranzeigen
+{
+	margin-left: 165px;
+}
+.alleuser
+{
+	background-color: #AA0000;
+	left: 50%;
+	text-align:center;
+	width: 70%;
+	margin-left: -50%;
+	margin-top: 1px;
+
+}
+.alleuser a
+{
+	text-decoration: none;
+	padding: 2px 100px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.OverlayAusgabe
+{
+	color: #AA0000;
+	font-weight: bold;
+	margin-top: -20px;
+	margin-left: 50x;
+}
+
+.alleBewerbungen
+{
+
+	left: 50%;
+	text-align:center;
+	width: 70%;
+	margin-left: -50%;
+	margin-top: 1px;
+
+}
+
+.alleBewerbungen a
+{
+	text-decoration: none;
+	padding: 2px 100px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#player
+{
+	margin-left: 850px;
+
+}
+#USER_NAME
+{
+	margin-top: -60px;
+	margin-left: 20px;
+}
+#img_user_name{
+	left: 50%;
+	text-align:center;
+	width: 70%;
+	margin-left: -50%;
+}
+#img_server_name{
+	color: white;
+	font-family: 'Graduate', serif;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-top: -250px;
+
+}
+.Rahmen_Raid{
+	margin-left: -10px;
+	margin-top:-5px;
+}
+#Rahmen_Server{
+	margin-left: -10px;
+	margin-top: -15px;
+}
+#Rahmen_Login{
+	margin-left: -10px;
+	margin-top: -15px;
+}
+.Rahmen_Login{
+	margin-left: -10px;
+	margin-top: -15px;
+}
+
+#img_Server{
+	display: block;
+    margin-left: 70px;
+	margin-top:10px;
+}
+#img_server_Auslastung{
+	color: white;
+	font-family: 'Graduate', serif;
+	font-weight: bold;
+	font-size: 1em;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+#img_ts{
+	margin-left: -6px;
+	margin-top: 0px;
+}
+#img_raid{
+	margin-left: -6px;
+}
+#img_user{
+	margin-left: -6px;
+}
+#img_server{
+	margin-left: -6px;
+	margin-top: 10px;
+}
+#pagemeldung{
+	width: 500px;
+	margin: auto auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#contentreg{
+	width: 1120px;
+	height:800px;
+	margin-top: 70px;
+	margin-left: -12px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#contentbew{
+	width: 1120px;
+	height:1500px;
+	margin-top: 70px;
+	margin-left: -12px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Bewerbungen_Aufnahme
+{
+	margin-left: 180px;
+	margin-top: -40px;
+}
+
+.Bewerbungen_Ablehnung
+{
+	margin-left: 280px;
+	margin-top: -20px;
+}
+.Bewerbungen_Ablehnung_Grund
+{
+	margin-left: -235px;
+	margin-top: 5px;
+	
+}
+.Bewerbungen_Bestaetigen_Text
+{
+	margin-left: 400px;
+	margin-top: -25px;
+}
+.Bewerbungen_Ablehnung_Grund_Ausgabe
+{
+	margin-left: -80px;
+	margin-top: 0px;
+	width: 200px;
+}
+.Bewerbung_H4_Kommentar
+{
+	margin-left: -235px;
+}
+.Bewerbungen_Bestaetigen
+{
+	margin-left: 400px;
+	margin-top: -20px;
+}
+/*Pictures*/
+#pagepictures
+{
+	width: 1150px;
+	margin: -100px auto;
+	padding: 0 0 0 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: auto;
+	url(img/site/page-gradient-bg.png) repeat-x left bottom;
+}
+.bildbox {
+	width: 220px;
+	height: 360px;
+	margin: 0px;
+	position: relative;
+	float: left;
+	border-color: transparent;
+   	 border-style: solid;
+    	border-width: 2px;
+
+}
+#Picture{
+	margin-left: -230px;
+	width: 700px;
+
+}
+.Pictures{
+	margin-top: 20px;
+	margin-left:10px;
+}
+.Pic{
+	width: 200px;
+}
+.PIC_Beschreibung{
+	margin-left: 5px;
+	width: 200px;
+	margin-top:-10px;
+}
+/*Movies*/
+#Movies{
+	margin-left: -350px;
+	width: 1000px;
+}
+.moviebox {
+	width: 460px;
+	height: 400px;
+	margin: 0px;
+	position: relative;
+	float: left;
+	border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+#clear{
+	clear:left;
+}
+#seitenanzahl{
+	margin-top: 20px;
+}
+#Upload{
+	margin-top: 20px;
+	margin-left: -450px;
+}
+.Regeln{
+	margin-top: 10px;
+	text-align: center;
+}
+.Beitrag{
+	text-align: left;
+}
+
+#Pic_Sozial {
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Sozialverhalten.png);
+	background-size:440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Sozial:hover {
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Sozialverhalten_Hover.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Raid {
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Raidgruppen.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Raid:hover {
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Raidgruppen_Hover.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+
+#Pic_Ausschluss:Hover
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Ausschluss_Hover.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Loot:Hover
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Lootregeln_Hover.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_TS:Hover
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Teamspeak3_Hover.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Anwesenheit:Hover
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Forum_Anwesenheit_Hover.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Kennlernen:Hover
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/TS3Gespräch_Hover.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Ausschluss
+{
+
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Ausschluss.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Loot
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Lootregeln.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_TS
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Teamspeak3.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Anwesenheit
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/Forum_Anwesenheit.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#Pic_Kennlernen
+{
+	width:410px;
+	height:auto;
+	background: #000000 url(img/site/TS3Gespräch.png);
+	background-size: 440px auto;
+	background-repeat:no-repeat;
+	background-position: -30px 0px;
+}
+#AGB_Head{
+	margin-left: 80px;
+}
+#AGB_Allgemein{
+	margin-left:0px;
+	margin-top: 0px;
+}
+#AGB_allgemein{
+	margin-left:50px;
+	margin-top: -45px;
+}
+#AGB_Gilden{
+	margin-left: 120px;
+	margin-top: -98px;
+}
+#AGB_gilden{
+	margin-left: 165px;
+	margin-top: -45px;
+}
+#AGB_Bedingungen{
+	margin-left: 240px;
+	margin-top: -98px;
+}
+#AGB_bedingungen{
+	margin-left: 292px;
+	margin-top: -45px;
+}
+#Raid1{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#Raid2{
+	margin-left: 250px;
+	margin-top: -245px;
+}
+.News_News_Bild
+{
+	margin-top:	20px;
+	margin-left: 350px;
+}
+.News_News_News
+{
+	margin-left: 480px;
+	width: 400px;
+}
+.submit-button
+{ background: url(./img/site/bestätigen.png) left  no-repeat;
+  background-size: 100px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 100px;
+  height: 100px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.url_button
+{ background: url(./img/site/url.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+.unterstrichen_button
+{ background: url(./img/site/unterstrichen.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+.fett_button
+{ background: url(./img/site/fett.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+.quote_button
+{ background: url(./img/site/quote.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+.rot_button
+{ background: url(./img/site/rot.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+.gruen_button
+{ background: url(./img/site/grün.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+.blau_button
+{ background: url(./img/site/blau.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+.gelb_button
+{ background: url(./img/site/gelb.png) left  no-repeat;
+  background-size: 50px auto;;
+  border:none;
+  overflow:visible;
+  display:inline;
+  margin:0px;
+  padding:0px 4px 2px 4px;
+  width: 51px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+#Raid{
+  text-align: left;
+  font-family: 'Graduate', serif;
+}
+#Kennlernen{
+  text-align: left;
+  font-family: 'Graduate', serif;
+}
+#Anwesenheit{
+  text-align: left;
+  font-family: 'Graduate', serif;
+}
+#TS{
+  text-align: left;
+  font-family: 'Graduate', serif;
+}
+#Sozial{
+  text-align: left;
+  font-family: 'Graduate', serif;
+}
+#Loot{
+  text-align: left;
+  font-family: 'Graduate', serif;
+}
+#Ausschluss{
+  text-align: left;
+  font-family: 'Graduate', serif;
+}
+.Tank{
+color: red;
+}
+.Heal{
+color: yellow;
+}
+.DD{
+color: green;
+}
+#UserOnlineAnzeige
+{
+    margin-top: 20px;
+    float: left;
+}
+#UserStatistik
+{
+    position: absolute;
+    margin-top: 20px;;
+    margin-left: 520px;;
+
+}
+#Raidplaneranzeigen a
+{
+    color: #B6BFD0;
+}
+#Raidplaneranzeigen a:hover
+{
+    color:  #AF0706;
+}
+#Raidplaneranzeigen table
+{
+    margin-left: 430px;
+}
+#Raidplaneranzeigen td
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.today
+{
+    background-color: rgba(0, 0, 0, 1);    
+}
+.today:hover
+{
+    background-color: #2E9F13; 
+}
+.nottoday
+{
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+.nottoday:hover
+{
+    background-color: #2E9F13; 
+}
+#RaidErstellen
+{
+    margin-left: -450px;
+}
+#RaidModus
+{
+    margin-left: 150px; margin-top: -74px;
+}
+#RaidStunde
+{
+    margin-left: 210px;
+    margin-top: -75px;
+}
+#RaidMinute
+{
+    margin-left: 270px; 
+    margin-top: -74px;
+}
+#RaidGruppe
+{
+    margin-left: 330px; 
+    margin-top: -74px;
+}
+#RaidLeiter
+{
+    margin-left: 490px; 
+    margin-top: -75px;
+}
+#RaidWiederholbar
+{
+    margin-left: 600px; 
+    margin-top: -20px;
+}
+#Button_Raid
+{
+    margin-top: 20px;
+}
+#Raidplaner_Anzeige_Raids
+{
+    margin-top: -220px;
+    margin-left: -450px;
+}
+#c1_text
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#c1_eingabe
+{
+    margin-left: 60px;
+    margin-top: -17px;
+}
+#c1_char
+{
+    margin-left: 220px;
+    margin-top: -20px;
+}
+#c2_text
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#c2_eingabe
+{
+    margin-left: 60px;
+    margin-top: -17px;
+}
+#c2_char
+{
+    margin-left: 220px;
+    margin-top: -20px;
+}
+#c3_text
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#c3_eingabe
+{
+    margin-left: 60px;
+    margin-top: -17px;
+}
+#c3_char
+{
+    margin-left: 220px;
+    margin-top: -20px;
+}
